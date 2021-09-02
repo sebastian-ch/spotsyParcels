@@ -20,7 +20,7 @@ L.tileLayer(
     }
   ).addTo(map);
 
-  const url = 'https://sebastian-ch.github.io/sidsDataTest/data/jamaicabenth/{z}/{x}/{y}.pbf';
+  const url = 'https://sebastian-ch.github.io/spotsyParcels/data/{z}/{x}/{y}.pbf';
   const options = {
           // Specify zoom range in which tiles are loaded. Tiles will be
           // rendered from the same data for Zoom levels outside the range.

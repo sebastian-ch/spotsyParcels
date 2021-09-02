@@ -16199,7 +16199,7 @@ L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r
   subdomains: "abcd",
   maxZoom: 19
 }).addTo(map);
-var url = 'https://sebastian-ch.github.io/sidsDataTest/data/jamaicabenth/{z}/{x}/{y}.pbf';
+var url = 'https://sebastian-ch.github.io/spotsyParcels/data/{z}/{x}/{y}.pbf';
 var options = {
   // Specify zoom range in which tiles are loaded. Tiles will be
   // rendered from the same data for Zoom levels outside the range.
@@ -16245,7 +16245,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63682" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56963" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -16422,4 +16422,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
-//# sourceMappingURL=/spotsyParcels.e31bb0bc.js.map
+//# sourceMappingURL=spotsyParcels.e31bb0bc.js.map
